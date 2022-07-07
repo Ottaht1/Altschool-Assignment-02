@@ -13,16 +13,8 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
-function sumOfNumbers(arrayOfNumbers) {
-let sum = 0;
-for(let start = 0;start < arrayOfNumbers.length;start+=1)
-  {
-sum = sum + arrayOfNumbers[start];
-  }
-return sum
-}
-console.log(sumOfNumbers([2,4,5,7,8,9,10,36,40,100.200,300]))
-assignment.sumOfNumbers = sumOfNumbers;
+
+//assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
