@@ -13,7 +13,9 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
-
+function sumOfNumbers(arrayOfNumbers) {
+  return arrayOfNumbers.length;
+}
 //assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -35,7 +37,7 @@ if(numb % 2 == 0) {
   }
   return count
 }
-console.log(countEvenNumbers([2,4,5,7,8,9,10,36,40,100,200,300]));
+
 assignment.countEvenNumbers = countEvenNumbers;
 
 /**
@@ -61,7 +63,7 @@ result.push(Math.trunc(fahrenheitValue))
      }
   return result
 }
-console.log(celsiusToFahrenheit([2,4,5,7,8,9,10,36,40,100.200,300]))
+
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
